@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'bbc-root',
+  template: `<nav-bar></nav-bar>`
 })
 export class AppComponent {
-  title = 'clh';
+  title = 'bbc';
 }
